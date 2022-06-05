@@ -3,7 +3,7 @@ header {
 }
 header div {
     margin-top: 40px;
-    width: 60%;
+    width: 30%;
     float: left;
 }
 header p {
@@ -14,10 +14,11 @@ header p {
 }
 nav {
     float: right;
-    width: 40%;
+    width: 70%;
 }
 nav ul {
     float: right;
+
 }
 nav li {
     float: left;
@@ -33,7 +34,9 @@ nav a {
     text-transform:uppercase;
     font-weight: bold;
     letter-spacing: 1px;
-    border-right: 1px dashed rgba(0, 0, 0, .3);
+    border-left: 1px dashed rgba(0, 0, 0, .3);
+    border-radius: 30px;
+    background-color: #00328a;
 }
 nav li:last-child a {
     border-right: none;
@@ -66,8 +69,7 @@ body {
     line-height: 1.5;
     font-family: 'Josefin Sans', sans-serif;
     color: #272727;
-    background: rgb(247,251,252);
-    background: -webkit-linear-gradient(top, rgb(27, 66, 147) 0%, rgb(90, 108, 161) 40%, rgb(255, 255, 255) 100%);
+    background: #19d2b3
 }
 header, footer, article, section, nav {
     display:block;
@@ -99,7 +101,7 @@ a img {
     border:none;
 }
 h1 {
-    font-size: 50px;
+    font-size: 65px;
     margin: 0;
     color: #ffffff;
     font-weight: normal;
@@ -191,4 +193,11 @@ footer p {
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 1px dashed rgba(0,0,0,.3);
+}
+div.header-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #00328a;
+    align-items: center;
+    text-transform: uppercase;
 }
