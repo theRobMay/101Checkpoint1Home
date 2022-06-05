@@ -294,12 +294,12 @@ div.bottom-grid{
 }
 div.featured {
     background: #fff;
-    border: 5px solid #5fb3bd;
+    border: 5px solid #00328a;
     border-radius: 4px;
     min-height: 450px;
     padding: 45px 15px 15px;
     position: relative;
-    width: 420px;
+    width: 80%;
 }
 div.featured h2 {
     font-size: calc(.8vw + .8vh);
@@ -328,6 +328,10 @@ div.featured img {
     float: left;
     margin: 10px 30px 25px 0;
     padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 10%;
+    min-height: 10%;
 }
 div.featured p {
     clear: both;
@@ -344,7 +348,7 @@ div.featured p a:hover {
     color: #252525;
 }
 div.section {
-    width: 460px;
+    width: 100%;
 }
 div.section div {
     background: #519194;
@@ -384,7 +388,7 @@ div.section.article h2 a {
     text-indent: -99999px;
     width: 31px;
 }
-div.section.article p {
+p.art-p {
     color: #f5f5f5;
     font-size: calc(.5vw + .5vh);
     line-height: 24px;
@@ -392,7 +396,7 @@ div.section.article p {
     padding: 20px 0px;
     text-align: left;
 }
-div.section.article p a {
+div.section.article > a {
     color: #f5f5f5;
     text-decoration: underline;
 }
@@ -412,7 +416,7 @@ div.section.newsletter {
     padding: 30px 15px 19px 214px;
     position: relative;
 }
-div.section.newsletter.img {
+div.section.newsletter img {
     display: block;
     left: 0;
     margin: 0;
@@ -421,7 +425,7 @@ div.section.newsletter.img {
     top: -13px;
     z-index: 5;
 }
-div.section.newsletter p {
+p.news-p {
     color: #f5f5f5;
     font-size: calc(.7vw + .7vh);
     font-weight: bold;
@@ -433,20 +437,4 @@ div.section.newsletter p {
 div.section.newsletter p span {
     display: block;
 }
-div.section.newsletter form {
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-}
-div.section.newsletter form span {
-    color: #f5f5f5;
-    clear: both;
-    display: block;
-    font-size: 14px;
-    letter-spacing: 0.01em;
-    line-height: 30px;
-    margin: 0;
-    padding: 0 0 4px;
-    text-transform: capitalize;
-    text-shadow: 0 -1px 0 #285f62;
-}
+
