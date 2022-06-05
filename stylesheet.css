@@ -1,10 +1,17 @@
+.page-wrap{
+    background-color: #19d2b3;
+}
 header {
+    width: 100%;
     margin: 20px 40px 60px;
+    background-color: #19d2b3;
+    color: #19d2b3;
 }
 header div {
-    margin-top: 40px;
-    width: 30%;
+    margin-top: 3%;
+    width: 12.5%;
     float: left;
+    background-color: #19d2b3;
 }
 header p {
     color: #868686;
@@ -14,7 +21,7 @@ header p {
 }
 nav {
     float: right;
-    width: 70%;
+    width: 40%;
 }
 nav ul {
     float: right;
@@ -69,7 +76,7 @@ body {
     line-height: 1.5;
     font-family: 'Josefin Sans', sans-serif;
     color: #272727;
-    background: #19d2b3
+    background: #19d2b3;
 }
 header, footer, article, section, nav {
     display:block;
@@ -80,12 +87,40 @@ nav {
     top: 0;
     right: 0;
     margin-top: 2%;
-    margin-right: 2%;
+    margin-right: 12%;
 }
-
+div.lead-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: clip;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    position: relative;
+    text-align: center;
+    max-height: calc(15vw + 13vh);
+}
+img.lead-img {
+    border-color: #00328a;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+}
+p.lead-img-txt {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+    font-size: calc(2vh + 2vw);
+    color: #00328a;
+}
 img {
-    border-radius: 100%;
     max-width: 100%;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
     display: block;
 }
 
@@ -105,9 +140,12 @@ a:hover, a:focus { /* when you declare a hover state, make sure you declare a fo
 a img {
     border:none;
 }
+h1.ziz {
+    background-color: #00328a;
+    padding: 10%;
+}
 h1 {
     font-size: calc(3vw + 4vh);
-    margin: 0;
     color: #ffffff;
     font-weight: normal;
     line-height: 1;
@@ -209,5 +247,24 @@ div.header-box {
     margin: 0;
     width: auto;
     justify-content: center;
-
+}
+div.mid-gallery {
+    background-color: white;
+    padding: 0;
+    margin-top: 2%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+ul.mid-image-list{
+    padding: 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li.mid-img{
+    border-style: solid;
+    border-color: #00328a;
+    border-width: 3px;
+    justify-content: space-between;
 }
