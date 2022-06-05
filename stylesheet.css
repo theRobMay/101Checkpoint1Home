@@ -76,6 +76,11 @@ header, footer, article, section, nav {
 }
 nav {
     color: #000000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 2%;
+    margin-right: 2%;
 }
 
 img {
@@ -101,11 +106,12 @@ a img {
     border:none;
 }
 h1 {
-    font-size: 65px;
+    font-size: calc(3vw + 4vh);
     margin: 0;
     color: #ffffff;
     font-weight: normal;
     line-height: 1;
+    font-family: 'Oswald', sans-serif;
 }
 h2 {
     font-size: 24px;
@@ -200,4 +206,8 @@ div.header-box {
     background-color: #00328a;
     align-items: center;
     text-transform: uppercase;
+    margin: 0;
+    width: auto;
+    justify-content: center;
+
 }
