@@ -443,3 +443,6 @@ a {
     padding: 0;
     max-height: 50%;
 }
+img.mid-image:hover{
+    opacity: 80%;
+}
