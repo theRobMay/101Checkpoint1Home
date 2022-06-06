@@ -32,7 +32,7 @@ nav li {
     list-style: none;
     padding: 4px 0;
 }
-nav a {
+li.nav-link a {
     color: #ffffff;
     display: block;
     font-size:12px;
@@ -118,8 +118,8 @@ p.lead-img-txt {
 }
 
 
-a {
-    color: #00328a;
+li.nav-link a {
+    color: #fafafa;
     text-decoration:none;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -127,11 +127,11 @@ a {
     transition: all .3s ease-in-out;
 }
 
-a:hover, a:focus { /* when you declare a hover state, make sure you declare a focus state as well */
+li.nav-link a:hover,li.nav-link a:focus { /* when you declare a hover state, make sure you declare a focus state as well */
     color: #000;
 }
 
-a img {
+li.nav-link a img {
     border:none;
 }
 h1.ziz {
@@ -283,8 +283,8 @@ img.mid-image{
     border-color: #00328a;
     min-height: 40%;
     min-width: 40%;
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 100%;
+    max-width: 100%;
 }
 div.bottom-grid{
     margin-top: 10px;
@@ -438,4 +438,8 @@ p.news-p {
 div.section.newsletter p span {
     display: block;
 }
-
+a {
+    margin: 4%;
+    padding: 0;
+    max-height: 50%;
+}
